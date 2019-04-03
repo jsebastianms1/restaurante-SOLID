@@ -5,7 +5,7 @@ const path = require('path');
 const app = express();
 
 const {getHomePage} = require('./routes/index');
-const {addCategoriaPage, addCategoria, deleteCategoria, editCategoria, editCategoriaPage} = require('./routes/Categoria');
+const {addCategoriaPage, addCategoria, deleteCategoria, editCategoria, editCategoriaPage} = require('./routes/categoria');
 const port = 4000;
 
 // create connection to database
